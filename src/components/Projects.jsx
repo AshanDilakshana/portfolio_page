@@ -8,7 +8,7 @@ const PROJECTS = [
       "MERN Stack | Developed an online road failure reporting system. Users reported issues with location and images, while admins managed and updated issue statuses in real time.",
     link: "https://github.com/AshanDilakshana/Road_Master?tab=readme-ov-file#-login-page",
     tags: ["MERN", "React", "Node.js", "MongoDB", "Express"],
-    demo: "/",
+    demo: "",
     github: "https://github.com/AshanDilakshana/Road_Master.git",
     image: "/roadmaster.png",
   }
@@ -29,7 +29,7 @@ const PROJECTS = [
       "Java, MySQL | Designed and implemented a web-based system for managing inventory, orders, and suppliers. Features included real-time stock updates, user authentication, and automated report generation for efficient resource management.",
     link: "#",
     tags: ["Java", "MySQL"],
-    demo: "/",
+    demo: "",
     github: "https://github.com/yourusername/spare-parts-management",
     image: "/vehical.png",
   },

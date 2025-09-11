@@ -117,9 +117,9 @@ export default function About() {
             <a href="#contact" className="primary-btn">
               Hire Me
             </a>
-            <a href="/Ashan_Dilakshana_CV.pdf" download className="soft-btn">
-              Download CV
-            </a>
+            <a href="/Ashan-Dilakshana-CV.pdf" download="a1.png" className="soft-btn">
+  Download CV
+</a>
           </div>
         </motion.div>
 
