@@ -17,11 +17,11 @@ const PROJECTS = [
     name: "Factory Management System",
     description:
       "React, Node.js, MongoDB | Built a full-stack MERN application with JWT auth, covering production, inventory, employee scheduling, and sales. Deployed using React and JavaScript.",
-    link: "#",
+    link: "https://github.com/AshanDilakshana/factoryManagementSystem/blob/main/README.md#welcome--access",
     tags: ["React", "Node.js", "MongoDB", "JWT"],
-    demo: "/",
+    demo: "",
     github: "https://github.com/yourusername/factory-management",
-    image: "/",
+    image: "/factory.png",
   },
   {
     name: "vehicle spare parts management system ",
