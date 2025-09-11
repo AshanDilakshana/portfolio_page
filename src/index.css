@@ -1,0 +1,45 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+.gradient-text {
+  @apply bg-clip-text text-transparent;
+  background-image: linear-gradient(90deg, #a78bfa, #7c3aed);
+}
+
+.card {
+  @apply rounded-2xl border border-white/10 bg-white/40 backdrop-blur dark:bg-white/5 shadow-lg;
+}
+
+
+/* Modern style refinements */
+.card {
+  @apply rounded-2xl border border-white/10 bg-white/30 dark:bg-white/5 backdrop-blur-xl shadow-xl transition-transform duration-300;
+}
+.card:hover {
+  transform: translateY(-2px);
+}
+.section-title {
+  @apply text-2xl font-bold mb-6 tracking-tight;
+}
+.soft-btn {
+  @apply px-5 py-3 rounded-xl border border-white/10 bg-white/10 dark:bg-white/5 shadow-lg;
+}
+.primary-btn {
+  @apply px-5 py-3 rounded-xl shadow-lg text-white;
+  background-image: linear-gradient(90deg, #8b5cf6, #7c3aed);
+}
+.primary-btn:hover {
+  filter: brightness(1.05);
+}
+.bg-grid {
+  background-image: linear-gradient(rgba(255,255,255,.04) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.04) 1px, transparent 1px);
+  background-size: 24px 24px, 24px 24px;
+  background-position: center center;
+}
