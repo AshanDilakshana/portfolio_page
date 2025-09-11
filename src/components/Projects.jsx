@@ -10,7 +10,7 @@ const PROJECTS = [
     tags: ["MERN", "React", "Node.js", "MongoDB", "Express"],
     demo: "/",
     github: "https://github.com/AshanDilakshana/Road_Master.git",
-    image: "/AddDash.png",
+    image: "/roadmaster.png",
   }
     ,
   {
@@ -21,17 +21,17 @@ const PROJECTS = [
     tags: ["React", "Node.js", "MongoDB", "JWT"],
     demo: "/",
     github: "https://github.com/yourusername/factory-management",
-    image: "/projects/factory.png",
+    image: "/",
   },
   {
-    name: "Computer Spare Parts Management System",
+    name: "vehicle spare parts management system ",
     description:
       "Java, MySQL | Designed and implemented a web-based system for managing inventory, orders, and suppliers. Features included real-time stock updates, user authentication, and automated report generation for efficient resource management.",
     link: "#",
     tags: ["Java", "MySQL"],
     demo: "/",
     github: "https://github.com/yourusername/spare-parts-management",
-    image: "/projects/spareparts.png",
+    image: "/vehical.png",
   },
   {
     name: "LearnHub Web App",
