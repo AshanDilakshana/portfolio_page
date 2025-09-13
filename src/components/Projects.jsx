@@ -41,7 +41,7 @@ const PROJECTS = [
     tags: ["React", "Spring Boot"],
     demo: "/",
     github: "https://github.com/yourusername/learnhub",
-    image: "/projects/learnhub.png",
+    image: "/learnhub.png",
   },
 ];
 
