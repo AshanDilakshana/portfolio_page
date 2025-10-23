@@ -2,6 +2,8 @@
 import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { Github, Linkedin, Instagram, Facebook } from "lucide-react";
+import cvFile from '../../public/Ashan-Dilakshana-CV.pdf';
+
 const WORDS = ["Designer", "Developer", "Freelancer"];
 
 function Typewriter() {
@@ -118,7 +120,7 @@ export default function About() {
               Hire Me
             </a>
             <a
-              href="/Ashan-Dilakshana-CV.pdf"
+              href={cvFile}
               download="Ashan-Dilakshana-CV.pdf"
               className="soft-btn"
             >
