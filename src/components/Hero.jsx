@@ -121,7 +121,7 @@ export default function About() {
             </a>
             <a
               href={cvFile}
-              download="Ashan-Dilakshana-CV.pdf"
+              download
               className="soft-btn"
             >
               Download CV
